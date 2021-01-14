@@ -1,7 +1,8 @@
 name: conditional-push
 on: [push]
+if: true
 jobs:
-  check-bats-version:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run: echo hello
+      - run: echo "Hello, World!"
